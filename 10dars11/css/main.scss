@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.anematsiya{
+    width: 80px;
+    height: 80px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    animation: box 10s infinite;
+}
+
+@keyframes box {
+    0%{
+        margin-top: 350px;
+        margin-left: 300px;
+    }
+    20%{
+        margin-top: 70px;
+        margin-left: 420px;
+        box-shadow: rgba(71, 88, 236, 0.4) -5px 5px, rgba(71, 88, 236, 0.4) -10px 10px, rgba(71, 88, 236, 0.4) -15px 15px, rgba(71, 88, 236, 0.4) -20px 20px, rgba(71, 88, 236, 0.4) -25px 25px;
+    }
+    40%{
+        margin-top: 350px;
+        margin-left: 540px;
+    }
+    60%{
+        margin-top: 200px;
+        margin-left: 250px;
+        box-shadow: rgba(71, 88, 236, 0.4) 5px 5px, rgba(71, 88, 236, 0.4) 10px 10px, rgba(71, 88, 236, 0.4) 15px 15px, rgba(71, 88, 236, 0.4) 20px 20px, rgba(71, 88, 236, 0.4) 25px 25px;
+    }
+    80%{
+        margin-top: 200px;
+        margin-left: 630px;
+        box-shadow: rgba(71, 88, 236, 0.4) -5px 5px, rgba(71, 88, 236, 0.4) -10px 10px, rgba(71, 88, 236, 0.4) -15px 15px, rgba(71, 88, 236, 0.4) -20px 20px, rgba(71, 88, 236, 0.4) -25px 25px;
+
+    }
+    100%{
+        margin-top: 350px;
+        margin-left: 300px;
+        box-shadow: rgba(71, 88, 236, 0.4) 5px 5px, rgba(71, 88, 236, 0.4) 10px 10px, rgba(71, 88, 236, 0.4) 15px 15px, rgba(71, 88, 236, 0.4) 20px 20px, rgba(71, 88, 236, 0.4) 25px 25px;
+    }
+}
